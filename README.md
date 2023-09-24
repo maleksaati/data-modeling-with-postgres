@@ -31,12 +31,14 @@ log_data/2018/11/2018-11-12-events.json
 log_data/2018/11/2018-11-13-events.json
 
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
-![enter image description here](https://video.udacity-data.com/topher/2019/February/5c6c15e9_log-data/log-data.png)
+![Log Dataset](https://video.udacity-data.com/topher/2019/February/5c6c15e9_log-data/log-data.png)
 
 ## Schema for Song Play Analysis
 
+
+![Star Schema](https://github.com/maleksaati/data-modeling-with-postgres/blob/main/schema/star-schema.png)
+
 ##### Fact Table
-![enter image description here](https://github.com/maleksaati/data-modeling-with-postgres/blob/main/schema/star-schema.png)
 1.  **songplays**  - records in log data associated with song plays i.e. records with page  `NextSong`
     -   _songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent_
 
